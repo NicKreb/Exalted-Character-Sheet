@@ -1,7 +1,7 @@
 # Exalted-Character-Sheet
 This project, once the website portfolio is finished, will be used for exalted 2e character sessions.
 
-##The program should have the following:
+## The program should have the following:
 
 1. It should track all the attributes, abilities, essence rating, essence pools (personal | peripheral), will power, health levels, and defense values.
 
