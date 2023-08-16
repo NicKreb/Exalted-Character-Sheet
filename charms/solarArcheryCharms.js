@@ -72,6 +72,54 @@ let solarCharm = [
     effect: "add Essence in autosuccesses to Join Battle, if first in line the first attack is made with 'unexpected attack' bonuses."
   },
   {
+    title: "Essence Arrow Attack",
+    statMin: "Archery 2, Essence 2",
+    preReq: "none",
+    essenceCost: 2,
+    willpowerCost: 0,
+    healthLevelCost: 0,
+    ability: "none",
+    attribute: "none",
+    perfect: "false",
+    effect: "Add Essence to weapon damage, and choose 1: (Fiery Arrow Attack: attack lights flammable objects), (Dazzling Flare: Solar illuminates Essence * 10 yards), (Righteous Judgement Arrow: spend +1m to add 4dmg dice)"
+  },
+  {
+   title: "Phantom Arrow Technique",
+    statMin: "Archery 3, Essence 2",
+    preReq: "Essence Arrow Attack",
+    essenceCost: 1,
+    willpowerCost: 0,
+    healthLevelCost: 0,
+    ability: "none",
+    attribute: "none",
+    perfect: "false",
+    effect: "create 1 ammunition of any kind out of essence for an attack."
+  },
+  {
+    title: "Summoning the Loyal Bow",
+    statMin: "Archery 3, Essence 2",
+    preReq: "Phantom Arrow Technique",
+    essenceCost: 1,
+    willpowerCost: 0,
+    healthLevelCost: 0,
+    ability: "none",
+    attribute: "none",
+    perfect: "false",
+    effect: "Store bow in Elsewhere to be pulled later."
+  },
+  {
+    title: "Immaculate Golden Bow",
+    statMin: "Archery 4, Essence 3",
+    preReq: "Essence Arrow Attack",
+    essenceCost: 3,
+    willpowerCost: 2,
+    healthLevelCost: 0,
+    ability: "none",
+    attribute: "none",
+    perfect: "false",
+    effect: "create an artifact bow of your choosing out of your essence"
+  },
+   {
     title: "x",
     statMin: "",
     preReq: "y",
@@ -82,20 +130,7 @@ let solarCharm = [
     attribute: "aT",
     perfect: "true/false",
     effect: ""
-  },
-  {
-   title: "x",
-    statMin: "",
-    preReq: "y",
-    essenceCost: "e",
-    willpowerCost: "w",
-    healthLevelCost: "h",
-    ability: "aB",
-    attribute: "aT",
-    perfect: "true/false",
-    effect: ""
-  },
-  {
+  }, {
     title: "x",
     statMin: "",
     preReq: "y",
@@ -106,8 +141,40 @@ let solarCharm = [
     attribute: "aT",
     perfect: "true/false",
     effect: ""
-  },
-  {
+  }, {
+    title: "x",
+    statMin: "",
+    preReq: "y",
+    essenceCost: "e",
+    willpowerCost: "w",
+    healthLevelCost: "h",
+    ability: "aB",
+    attribute: "aT",
+    perfect: "true/false",
+    effect: ""
+  }, {
+    title: "x",
+    statMin: "",
+    preReq: "y",
+    essenceCost: "e",
+    willpowerCost: "w",
+    healthLevelCost: "h",
+    ability: "aB",
+    attribute: "aT",
+    perfect: "true/false",
+    effect: ""
+  }, {
+    title: "x",
+    statMin: "",
+    preReq: "y",
+    essenceCost: "e",
+    willpowerCost: "w",
+    healthLevelCost: "h",
+    ability: "aB",
+    attribute: "aT",
+    perfect: "true/false",
+    effect: ""
+  }, {
     title: "x",
     statMin: "",
     preReq: "y",
