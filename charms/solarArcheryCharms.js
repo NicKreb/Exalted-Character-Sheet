@@ -73,42 +73,50 @@ let solarCharm = [
   },
   {
     title: "x",
+    statMin: "",
     preReq: "y",
     essenceCost: "e",
     willpowerCost: "w",
     healthLevelCost: "h",
     ability: "aB",
     attribute: "aT",
-    perfect: "true/false"
+    perfect: "true/false",
+    effect: ""
+  },
+  {
+   title: "x",
+    statMin: "",
+    preReq: "y",
+    essenceCost: "e",
+    willpowerCost: "w",
+    healthLevelCost: "h",
+    ability: "aB",
+    attribute: "aT",
+    perfect: "true/false",
+    effect: ""
   },
   {
     title: "x",
+    statMin: "",
     preReq: "y",
     essenceCost: "e",
     willpowerCost: "w",
     healthLevelCost: "h",
     ability: "aB",
     attribute: "aT",
-    perfect: "true/false"
+    perfect: "true/false",
+    effect: ""
   },
   {
     title: "x",
+    statMin: "",
     preReq: "y",
     essenceCost: "e",
     willpowerCost: "w",
     healthLevelCost: "h",
     ability: "aB",
     attribute: "aT",
-    perfect: "true/false"
-  },
-  {
-    title: "x",
-    preReq: "y",
-    essenceCost: "e",
-    willpowerCost: "w",
-    healthLevelCost: "h",
-    ability: "aB",
-    attribute: "aT",
-    perfect: "true/false"
+    perfect: "true/false",
+    effect: ""
   }
 ]
