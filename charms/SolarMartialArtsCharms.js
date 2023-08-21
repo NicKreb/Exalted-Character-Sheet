@@ -1,16 +1,20 @@
 let solarMACharms = [
    {
     title: "Fists of Iron Technique",
-    statMin: "Martial Arts 2, Essence 1",
+    ability: "Martial Arts",
+    attribute: "none",
+    abilityValRequirement: 2,
+    essenceValRequirement: 1,
     preReq: "none",
     essenceCost: 1,
     willpowerCost: 0,
     healthLevelCost: 0,
-    ability: "none",
-    attribute: "none",
+    abilityRolled: "none",
+    attributeRolled: "none",
     perfect: "false",
     effect: "+1 Accuracy, +2 L damage to an Unarmed Strike"
   },
+   //As done above, change the statMin key, to 'ability' , 'attribute' , 'abilityValRequirement' , and 'essenceValRequirement'. Add to the rest
    {
     title: "Sledgehammer Fist Punch",
     statMin: "Martial Arts 3, Essence 2",
